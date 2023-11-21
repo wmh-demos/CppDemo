@@ -11,13 +11,19 @@ int main()
     cout << "sizeof(day) = " << sizeof(day) << endl;
     cout << "sizeof(int) = " << sizeof(int) << endl;
     cout << "sizeof(long) = " << sizeof(long) << endl;
+    cout << "sizeof(float) = " << sizeof(float) << endl;
+    cout << "sizeof(double) = " << sizeof(double) << endl;
+
+    char a = 'a';
+    cout << "char a ASCII code = " << (int)a << endl;
 
     const int week = 52;
     cout << "const week = " << week << endl;
 
-    int a = 10;
-    cout << "a = " << a << endl;
+    int num1 = 10;
+    cout << "num1 = " << a << endl;
 
-    std::cout << "hello, world\n";
+    string str = "hello C++!\n";
+    std::cout << str;
     return 0;
 }
