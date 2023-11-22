@@ -22,7 +22,13 @@ void testInput() {
     int a = 0;
     cout << "please input int number: " << endl;
     cin >> a;
-    cout << "u input: " << a << endl;
+    if (a < 0) {
+        cout << "u input a negative number:" << a << endl;
+    } else if (a == 100) {
+        cout << "u input a perfect number: " << a << endl;
+    } else {
+        cout << "u input a normal number: " << a << endl;
+    }
 }
 
 void testVariables() {
