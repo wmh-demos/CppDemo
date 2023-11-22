@@ -13,6 +13,10 @@ int main()
     cout << "sizeof(long) = " << sizeof(long) << endl;
     cout << "sizeof(float) = " << sizeof(float) << endl;
     cout << "sizeof(double) = " << sizeof(double) << endl;
+    cout << "sizeof(bool) = " << sizeof(bool) << endl;
+
+    bool flag = true;
+    cout << "flag = " << flag << endl;
 
     char a = 'a';
     cout << "char a ASCII code = " << (int)a << endl;
