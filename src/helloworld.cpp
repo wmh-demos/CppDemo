@@ -5,16 +5,24 @@
 #define day 7
 
 void testVariables();
+void testInput();
 
 using namespace std;
 
 int main()
 {
-    testVariables();
-
+//    testVariables();
+    testInput();
     string str = "hello C++!\n";
     std::cout << str;
     return 0;
+}
+
+void testInput() {
+    int a = 0;
+    cout << "please input int number: " << endl;
+    cin >> a;
+    cout << "u input: " << a << endl;
 }
 
 void testVariables() {
