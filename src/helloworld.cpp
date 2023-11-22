@@ -3,10 +3,21 @@
 #include <string>
 
 #define day 7
+
+void testVariables();
+
 using namespace std;
 
 int main()
 {
+    testVariables();
+
+    string str = "hello C++!\n";
+    std::cout << str;
+    return 0;
+}
+
+void testVariables() {
     cout << "const day = " << day << endl;
     cout << "sizeof(day) = " << sizeof(day) << endl;
     cout << "sizeof(int) = " << sizeof(int) << endl;
@@ -25,9 +36,5 @@ int main()
     cout << "const week = " << week << endl;
 
     int num1 = 10;
-    cout << "num1 = " << a << endl;
-
-    string str = "hello C++!\n";
-    std::cout << str;
-    return 0;
+    cout << "num1 = " << num1 << endl;
 }

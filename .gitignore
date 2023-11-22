@@ -31,5 +31,7 @@
 *.out
 *.app
 
+.idea/*
 bin/*
 *.dSYM*
+/cmake-build-debug/
